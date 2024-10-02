@@ -1,0 +1,40 @@
+
+
+.ticket-list {
+  display: grid; 
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px; 
+  background-color: #fafafa; 
+  padding: 20px; 
+}
+
+.ticket-group {
+  margin: 20px 15px; 
+}
+
+.ticket-card {
+  border: 1px solid #ccc; 
+  padding: 20px; 
+  border-radius: 8px; 
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+
+}
+
+.ticket-card:hover {
+  transform: scale(1.05); 
+}
+
+.ticket-card > p:last-child {
+  color: #555;
+  border: 1px solid #eee; 
+  border-radius: 4px;
+  padding: 6px; 
+  background-color: #f9f9f9; 
+  width: fit-content; 
+}
+
+.ticket-card h4 {
+  color: #444; 
+  margin-bottom: 10px; 
+}

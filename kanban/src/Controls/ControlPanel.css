@@ -1,0 +1,25 @@
+
+
+.control-panel {
+  display: grid; 
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 15px; 
+  padding: 20px; 
+  background-color: #f4f4f4; 
+  border-radius: 8px; 
+}
+
+.label {
+  font-weight: bold; 
+  margin-bottom: 8px; 
+  color: #333; 
+}
+
+.select {
+  padding: 8px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  background-color: #fff; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
